@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300,400'); */
 /* @import url('https://fonts.googleapis.com/css?family=Lato'); */
 
 html {
@@ -13,9 +13,19 @@ body {
   /* font-family: 'Times New Roman', serif; */
 }
 
-.page {
+main {
   padding: 0.5em;
 }
+
+header {
+  margin-bottom: 1em;
+  /* border-bottom: 1px solid gray; */
+}
+
+section {
+  margin-bottom: 1em;
+}
+
 
 h1, h2, h3 {
   margin: 0;
@@ -36,11 +46,6 @@ h3 {
   font-weight: 400;
 }
 
-.header {
-  margin-bottom: 1em;
-  /* border-bottom: 1px solid gray; */
-}
-
 
 hr {
   color: #666;
@@ -58,7 +63,7 @@ a {
   cursor: pointer;
 }
 
-.home {
+/* .home {
   font-size: 15px !important;
   position: fixed;
   width: 100%;
@@ -69,4 +74,4 @@ a {
   color: #aaa;
   overflow-x: hidden;
   overflow-y: hidden;
-}
+} */
