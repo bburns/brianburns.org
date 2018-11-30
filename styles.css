@@ -1,0 +1,59 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif; */
+  font-family: 'Times New Roman', serif;
+}
+
+.page {
+  padding: 0.5em;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+h3 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.header {
+  margin-bottom: 1em;
+  /* border-bottom: 1px solid gray; */
+}
+
+
+hr {
+  color: #666;
+  background-color: #666;
+  border: none;
+  height: 1px;
+  width: 100%;
+  margin: 0 auto 0.5em;
+}
+
+/* remove the blue/purple/underline styling of default anchor links */
+a {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home {
+  font-size: 15px !important;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  background: #222;
+  color: #aaa;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
