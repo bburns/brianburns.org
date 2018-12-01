@@ -136,7 +136,7 @@ ul.nobullets {
   float: right;
   width: 25%;
   min-width: 100px;
-  padding: 1%;
+  padding: 0.7%;
   background: white;
   margin-left: 0.5em;
   margin-bottom: 0.5em;
@@ -149,4 +149,9 @@ ul.nobullets {
   padding: 1%;
   background: white;
   margin: 0 0.5em 0;
+} */
+
+/* .me {
+  display: block;
+  margin: 0 auto;
 } */
