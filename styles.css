@@ -1,5 +1,15 @@
+
+/* better to import here or in html? */
 /* @import url('https://fonts.googleapis.com/css?family=Lato'); */
 /* @import url('https://fonts.googleapis.com/css?family=Lato:300,400'); */
+
+
+:root {
+  --background: #333;
+  --foreground: #aaa;
+  --link: #aaa;
+  --hover: #eee;
+}
 
 html {
   box-sizing: border-box;
@@ -10,6 +20,8 @@ body {
   padding: 0;
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 300;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 main {
@@ -21,6 +33,12 @@ main {
 header {
   margin-bottom: 2em;
   /* border-bottom: 1px solid gray; */
+}
+/* add clearfix so floats don't overflow container */
+header::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 section {
@@ -82,25 +100,24 @@ section h3 {
 }
 
 
-hr {
+/* hr {
   color: #666;
   background-color: #666;
   border: none;
   height: 1px;
   width: 100%;
   margin: 0 auto 0.5em;
-}
+} */
 
 /* remove the blue/purple/underline styling of default anchor links */
 a {
-  color: #777;
-  /* color: green; */
+  color: var(--link);
   text-decoration: none;
   cursor: pointer;
   border-bottom: 1px dotted gray;
 }
 a:hover {
-  color: black;  
+  color: var(--hover);
 }
 
 ul.nobullets {
@@ -111,8 +128,16 @@ ul.nobullets {
 .icon {
   width: 24px;
   height: 24px;
+  vertical-align: bottom;
+  padding-right: 5px;
 }
 
 .me {
   float: right;
+  width: 25%;
+  min-width: 100px;
+  padding: 1%;
+  background: white;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
 }
