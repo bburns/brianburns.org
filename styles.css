@@ -53,7 +53,9 @@ section::after {
 
 footer {
   /* border-top: 1px solid gray; */
+  /* float: right; */
   font-size: 0.8em;
+  padding-bottom: 1em;
 }
 
 /* make the youtube embedded video responsive */
