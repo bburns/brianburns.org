@@ -120,9 +120,11 @@ a:hover {
   color: var(--hover);
 }
 
+ul {
+  padding: 0;
+}
 ul.nobullets {
   list-style-type: none;
-  padding: 0;
 }
 
 .icon {
@@ -155,3 +157,11 @@ ul.nobullets {
   display: block;
   margin: 0 auto;
 } */
+
+.service {
+  margin-bottom: 1em;
+}
+
+.project {
+  margin-bottom: 1em;
+}
