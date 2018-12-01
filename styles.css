@@ -26,6 +26,12 @@ header {
 section {
   margin-bottom: 2em;
 }
+/* add clearfix so floats don't overflow container */
+section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 footer {
   /* border-top: 1px solid gray; */
@@ -107,3 +113,6 @@ ul.nobullets {
   height: 24px;
 }
 
+.me {
+  float: right;
+}
