@@ -97,15 +97,13 @@ a:hover {
   color: black;  
 }
 
-/* .home {
-  font-size: 15px !important;
-  position: fixed;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-  background: #222;
-  color: #aaa;
-  overflow-x: hidden;
-  overflow-y: hidden;
-} */
+ul.nobullets {
+  list-style-type: none;
+  padding: 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
