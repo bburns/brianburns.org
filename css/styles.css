@@ -171,3 +171,8 @@ ul.nobullets {
 .project {
   margin-bottom: 1em;
 }
+
+.screenshot {
+  margin-top: 0.5em;
+  width: 100%;
+}
