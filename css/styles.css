@@ -173,6 +173,7 @@ ul.nobullets {
 }
 
 .screenshot {
-  margin-top: 0.5em;
-  width: 100%;
+  width: 90%;
+  margin: 0.5em auto 0;
+  display: block;
 }
