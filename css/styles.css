@@ -173,7 +173,8 @@ ul.nobullets {
 }
 
 .screenshot {
-  width: 90%;
+  width: 80%;
   margin: 0.5em auto 0;
   display: block;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
 }
