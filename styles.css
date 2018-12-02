@@ -5,6 +5,7 @@
 
 
 :root {
+  --base: #2a2a2a;
   --background: #333;
   --foreground: #aaa;
   --link: #aaa;
@@ -20,14 +21,15 @@ body {
   padding: 0;
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: 300;
-  background-color: var(--background);
+  background: var(--base);
   color: var(--foreground);
 }
 
 main {
-  padding: 0.5em;
+  padding: 1em;
   max-width: 720px;
   margin: 0 auto;
+  background-color: var(--background);
 }
 
 header {
@@ -55,7 +57,7 @@ footer {
   /* border-top: 1px solid gray; */
   /* float: right; */
   font-size: 0.8em;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 /* make the youtube embedded video responsive */
@@ -134,6 +136,8 @@ ul.nobullets {
   height: 24px;
   vertical-align: bottom;
   padding-right: 5px;
+  /* color: white; */
+  filter: invert(80%);
 }
 
 .me {
