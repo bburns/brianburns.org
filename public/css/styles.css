@@ -169,12 +169,12 @@ ul.nobullets {
 }
 
 .project {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .screenshot {
   width: 80%;
-  margin: 0.5em auto 0;
+  margin: 2em auto 0;
   display: block;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
 }
