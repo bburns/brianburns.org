@@ -1,6 +1,6 @@
 # Brian Burns Portfolio
 
-Simple HTML/CSS page.
+A simple HTML/CSS page.
 Hosted on Firebase Hosting using Google Cloud Platform.
 Current url is https://brianburns.org.
 
