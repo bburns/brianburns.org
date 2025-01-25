@@ -4,18 +4,22 @@ A simple HTML/CSS page.
 Hosted on Firebase Hosting using Google Cloud Platform.
 Current url is https://brianburns.org.
 
-
 ## Update
 
 To update site, just edit the files in `public` directly - index.html, css/styles.css, etc.
 
-Don't forget to commit changes to git and push to github.
-
-
 ## Deploy
 
-To deploy changes,
+Install Firebase CLI -
+
+    npm install -g firebase-tools
+
+Login -
+
+    firebase login
+
+Deploy changes -
 
     firebase deploy
-    
-https://firebase.google.com/docs/hosting/deploying
+
+See https://firebase.google.com/docs/hosting/deploying
