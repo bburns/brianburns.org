@@ -1,14 +1,20 @@
 # Brian Burns Portfolio
 
 A simple HTML/CSS page.
+
 Hosted on Firebase Hosting using Google Cloud Platform.
-Current url is https://brianburns.org.
+
+Console https://console.firebase.google.com/project/brianburns-org/overview
+
+Current url https://brianburns.org
 
 ## Update
 
 To update site, just edit the files in `public` directly - index.html, css/styles.css, etc.
 
 ## Deploy
+
+(dang, just host on github pages)
 
 Install Firebase CLI -
 
