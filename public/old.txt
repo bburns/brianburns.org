@@ -1,0 +1,23 @@
+"https://angel.co/bburnskm",
+"https://www.upwork.com/o/profiles/users/_~016d218f12fc4baf5d/"
+
+<a class="site-link" href="https://tripplanner.cafe">
+<a class="site-link" href="https://moveto.io">
+<a class="site-link" href="https://relocateme.now.sh">
+<a class="site-link" href="https://quilty.cafe">
+<a class="site-link" href="https://github.com/bburns/Quilty">
+
+<p>
+  Try this form, or drop me an email at 
+  <a href="mailto:bburns.km@gmail.com">bburns.km@gmail.com</a>.
+</p>
+<form action="https://mailthis.to/bburnskm" method="POST">
+  <input type="text" name="name" placeholder="Your name">
+  <input type="email" name="_replyto" placeholder="Your email">
+  <textarea name="message" placeholder="Enter your message here"></textarea>
+  <input type="hidden" name="_after" value="https://moveto.io/">
+  <input type="hidden" name="_honeypot" value="This is a honeypot">
+  <input type="hidden" name="_confirmation" value="Thank you for your message! I'll be in touch with you shortly.">
+  <input type="submit" value="Send">
+</form>
+
